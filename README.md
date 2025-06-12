@@ -4,11 +4,13 @@
 O GOP - Gestão odontolegal pericial - serve para facilitar o dia a dia das autoridades, através de um design limpo e intuitivo feito especialmente para que todos os públicos possam usá-lo. Além disso, irá ajudar na organização dos casos, a fim de agilizá-los melhorando a visualização do mesmo. Além disso, será possível fazer tudo isso através do celular, tirando fotos e cadastrando evidências de forma ágil.
 
 <h2>Tecnologias</h2>
+<h2>Tecnologias</h2>
 <ul>
-  <li>React Native</li>
-  <li>**React Native Paper**</li>
-  <li>Expo</li>
+  <li><strong>React Native</strong></li>
+  <li><strong>React Native Paper</strong></li>
+  <li><strong>Expo</strong></li>
 </ul>
+
 
 <h2>Funcionalidades</h2>
 <ul>
