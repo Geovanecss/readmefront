@@ -9,6 +9,7 @@ O GOP - Gestão odontolegal pericial - serve para facilitar o dia a dia das auto
   <li><strong>React Native</strong></li>
   <li><strong>React Native Paper</strong></li>
   <li><strong>Expo</strong></li>
+  <li><strong>Gemini</strong></li>
 </ul>
 
 
