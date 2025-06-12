@@ -104,83 +104,84 @@ O GOP - Gestão odontolegal pericial - serve para facilitar o dia a dia das auto
 
 ## Estrutura do Projeto
 
-projeto/
-├── 📁 assets/                        # Imagens e ícones usados no app (favicon, logo, splash, etc)
-│   ├── adaptive-icon.png
-│   ├── favicon.png
-│   ├── icon.png
-│   ├── logo-gop.png
-│   └── splash-icon.png
-│
-├── 📁 src/                           # Código-fonte principal da aplicação
-│   ├── 📁 app/                       # Arquivos relacionados às rotas e páginas
-│   │   ├── 📁 (auth)/               # Páginas de autenticação (login, cadastro)
-│   │   └── 📁 (tabs)/               # Navegação com abas principais do app
-│   │       ├── 📁 (adm)/           # Páginas exclusivas para usuários administradores
-│   │       │   ├── AdicionarUsuarios.tsx     # Tela para adicionar usuários
-│   │       │   ├── _layout.tsx               # Layout da área admin
-│   │       │   └── index.tsx                 # Página principal da aba admin
-│   │       ├── 📁 (casos)/         # Telas relacionadas à gestão de casos
-│   │       │   ├── 📁 caso/                   # Páginas de um caso específico
-│   │       │   │   ├── [id].tsx                     # Visualização de detalhes de um caso
-│   │       │   │   ├── AdicionarCaso.tsx           # Cadastro de novo caso
-│   │       │   │   ├── AdicionarEvidencia.tsx      # Adição de evidências ao caso
-│   │       │   │   ├── AdicionarVitima.tsx         # Adição de vítima ao caso
-│   │       │   │   ├── _layout.tsx                 # Layout padrão da página de caso
-│   │       │   │   └── index.tsx                   # Página principal da seção de caso
-│   │       │   ├── Dashboard.tsx           # Painel geral com estatísticas ou atalhos
-│   │       │   ├── Perfil.tsx              # Página de perfil do usuário
-│   │       │   ├── _layout.tsx             # Layout padrão da aba "casos"
-│   │       │   └── index.tsx               # Página inicial da aba "casos"
-│
-│   ├── 📁 components/                  # Componentes reutilizáveis da interface
-│   │   ├── 📁 CardCaso/              # Card com dados de um caso
-│   │   │   └── index.tsx
-│   │   ├── 📁 CardEvidencia/         # Card com dados de uma evidência
-│   │   │   └── index.tsx
-│   │   ├── 📁 EditarModal/           # Modal para edição de dados
-│   │   │   └── index.tsx
-│   │   ├── 📁 ModalEvidencia/        # Modal para exibir ou adicionar evidências
-│   │   │   └── index.tsx
-│   │   ├── 📁 OdontogramaInput/      # Entrada gráfica para informações odontológicas
-│   │   │   └── OdontogramaInput.tsx
-│   │   ├── 📁 User/                  # Componentes relacionados ao usuário
-│   │   │   ├── AddUserButton.tsx
-│   │   │   └── UserCard.tsx
-│   │   ├── 📁 common/                # Componentes genéricos e utilitários (ex: input)
-│   │   │   └── InputField.tsx
-│   │   ├── 📁 formularios-components/  # Componentes usados em formulários diversos
-│   │   │   ├── FormInput.tsx
-│   │   │   ├── ImageUploader.tsx
-│   │   │   ├── LocationMap.tsx
-│   │   │   └── PickerSelect.tsx
-│
-│   ├── 📁 hook/                      # Hooks personalizados para lógica reutilizável
-│   │   ├── useDateTimePicker.ts
-│   │   └── useImagePicker.ts
-│
-│   ├── 📁 interfaces/                # Definições de tipos e interfaces TypeScript
-│   │   └── IUser.ts
-│
-│   ├── 📁 lib/                       # Bibliotecas e funções auxiliares
-│   │   ├── geocode.ts                       # Função para geocodificação de endereços
-│   │   └── validate.ts                      # Funções de validação
-│
-│   ├── 📁 styles/                    # Estilos globais e específicos das páginas
-│   │   ├── AdicionarUsuarios.styles.ts
-│   │   ├── CadastroNovoCaso.styles.ts
-│   │   ├── globalStyles.ts
-│   │   ├── perfil.styles.ts
-│   │   └── vitima.styles.ts
-│
-│   └── 📁 utils/                     # Funções utilitárias diversas
-│       └── fileHelpers.ts                   # Funções auxiliares para manipulação de arquivos
-│
-├── .gitignore                       # Arquivos e pastas ignorados pelo Git
-├── README.md                        # Documentação geral do projeto
-├── app.json                         # Configurações do aplicativo (Expo)
-├── casos.json                       # Arquivo de dados mock (casos)
-├── package-lock.json                # Lockfile do gerenciador de pacotes npm
-├── package.json                     # Dependências, scripts e metadados do projeto
-└── tsconfig.json                    # Configurações do compilador TypeScript
+projeto <br>
+├── 📁 assets/                        # Imagens e ícones usados no app (favicon, logo, splash, etc) <br>
+│   ├── adaptive-icon.png <br>
+│   ├── favicon.png <br>
+│   ├── icon.png <br>
+│   ├── logo-gop.png <br>
+│   └── splash-icon.png <br>
+│ <br>
+├── 📁 src/                           # Código-fonte principal da aplicação <br>
+│   ├── 📁 app/                       # Arquivos relacionados às rotas e páginas <br>
+│   │   ├── 📁 (auth)/               # Páginas de autenticação (login, cadastro) <br>
+│   │   └── 📁 (tabs)/               # Navegação com abas principais do app <br>
+│   │       ├── 📁 (adm)/           # Páginas exclusivas para usuários administradores <br>
+│   │       │   ├── AdicionarUsuarios.tsx     # Tela para adicionar usuários <br>
+│   │       │   ├── _layout.tsx               # Layout da área admin <br>
+│   │       │   └── index.tsx                 # Página principal da aba admin <br>
+│   │       ├── 📁 (casos)/         # Telas relacionadas à gestão de casos <br>
+│   │       │   ├── 📁 caso/                   # Páginas de um caso específico <br>
+│   │       │   │   ├── [id].tsx                     # Visualização de detalhes de um caso <br>
+│   │       │   │   ├── AdicionarCaso.tsx           # Cadastro de novo caso <br>
+│   │       │   │   ├── AdicionarEvidencia.tsx      # Adição de evidências ao caso <br>
+│   │       │   │   ├── AdicionarVitima.tsx         # Adição de vítima ao caso <br>
+│   │       │   │   ├── _layout.tsx                 # Layout padrão da página de caso <br>
+│   │       │   │   └── index.tsx                   # Página principal da seção de caso <br>
+│   │       │   ├── Dashboard.tsx           # Painel geral com estatísticas ou atalhos <br>
+│   │       │   ├── Perfil.tsx              # Página de perfil do usuário <br>
+│   │       │   ├── _layout.tsx             # Layout padrão da aba "casos" <br>
+│   │       │   └── index.tsx               # Página inicial da aba "casos" <br>
+│   │ <br>
+│   ├── 📁 components/                  # Componentes reutilizáveis da interface <br>
+│   │   ├── 📁 CardCaso/              # Card com dados de um caso <br>
+│   │   │   └── index.tsx <br>
+│   │   ├── 📁 CardEvidencia/         # Card com dados de uma evidência <br>
+│   │   │   └── index.tsx <br>
+│   │   ├── 📁 EditarModal/           # Modal para edição de dados <br>
+│   │   │   └── index.tsx <br>
+│   │   ├── 📁 ModalEvidencia/        # Modal para exibir ou adicionar evidências <br>
+│   │   │   └── index.tsx <br>
+│   │   ├── 📁 OdontogramaInput/      # Entrada gráfica para informações odontológicas <br>
+│   │   │   └── OdontogramaInput.tsx <br>
+│   │   ├── 📁 User/                  # Componentes relacionados ao usuário <br>
+│   │   │   ├── AddUserButton.tsx <br>
+│   │   │   └── UserCard.tsx <br>
+│   │   ├── 📁 common/                # Componentes genéricos e utilitários (ex: input) <br>
+│   │   │   └── InputField.tsx <br>
+│   │   ├── 📁 formularios-components/  # Componentes usados em formulários diversos <br>
+│   │   │   ├── FormInput.tsx <br>
+│   │   │   ├── ImageUploader.tsx <br>
+│   │   │   ├── LocationMap.tsx <br>
+│   │   │   └── PickerSelect.tsx <br>
+│   │ <br>
+│   ├── 📁 hook/                      # Hooks personalizados para lógica reutilizável <br>
+│   │   ├── useDateTimePicker.ts <br>
+│   │   └── useImagePicker.ts <br>
+│   │ <br>
+│   ├── 📁 interfaces/                # Definições de tipos e interfaces TypeScript <br>
+│   │   └── IUser.ts <br>
+│   │ <br>
+│   ├── 📁 lib/                       # Bibliotecas e funções auxiliares <br>
+│   │   ├── geocode.ts                       # Função para geocodificação de endereços <br>
+│   │   └── validate.ts                      # Funções de validação <br>
+│   │ <br>
+│   ├── 📁 styles/                    # Estilos globais e específicos das páginas <br>
+│   │   ├── AdicionarUsuarios.styles.ts <br>
+│   │   ├── CadastroNovoCaso.styles.ts <br>
+│   │   ├── globalStyles.ts <br>
+│   │   ├── perfil.styles.ts <br>
+│   │   └── vitima.styles.ts <br>
+│   │ <br>
+│   └── 📁 utils/                     # Funções utilitárias diversas <br>
+│       └── fileHelpers.ts                   # Funções auxiliares para manipulação de arquivos <br>
+│ <br>
+├── .gitignore                       # Arquivos e pastas ignorados pelo Git <br>
+├── README.md                        # Documentação geral do projeto <br>
+├── app.json                         # Configurações do aplicativo (Expo) <br>
+├── casos.json                       # Arquivo de dados mock (casos) <br>
+├── package-lock.json                # Lockfile do gerenciador de pacotes npm <br>
+├── package.json                     # Dependências, scripts e metadados do projeto <br>
+└── tsconfig.json                    # Configurações do compilador TypeScript <br>
+
 
