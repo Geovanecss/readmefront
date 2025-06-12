@@ -1,26 +1,25 @@
 # readmefront
 
 <h2>Introdução</h2>
-O GOP - Gestão odontolegal pericial - serve para facilitar o dia a dia das autoridades, através de um design limpo e intuitivo feito especialmente para que todos os públicos possam usá-lo. Além disso, irá ajudar na organização dos casos, a fim de agilizá-los melhorando a visualização do mesmo.
+O GOP - Gestão odontolegal pericial - serve para facilitar o dia a dia das autoridades, através de um design limpo e intuitivo feito especialmente para que todos os públicos possam usá-lo. Além disso, irá ajudar na organização dos casos, a fim de agilizá-los melhorando a visualização do mesmo. Além disso, será possível fazer tudo isso através do celular, tirando fotos e cadastrando evidências de forma ágil.
 
 <h2>Tecnologias</h2>
-<ul>
-  <li>React</li>
-  <li>React Native</li>
-</ul>
 
 <h2>Funcionalidades</h2>
-Visualizar todos os casos com cores diferentes, conforme o status de cada caso.
-Visualizar detalhes de um caso específico.
-Adicionar um novo caso preenchendo um formulário completo.
-Listar todas as evidências de um caso.
-Gerar relatório de um caso encerrado.
-Fazer download em PDF das evidências de um caso encerrado.
-Visualizar informações detalhadas de uma evidência.
-Fazer download individual de evidências.
-Adicionar novas evidências a um caso, realizando upload de arquivos.
+<ul>
+<li>Visualizar todos os casos com cores diferentes, conforme o status de cada caso.</li>
+  <li>Visualizar detalhes de um caso específico.</li>
+  <li>Adicionar um novo caso preenchendo um formulário completo.</li>
+  <li>Listar todas as evidências de um caso.</li>
+  <li>Gerar relatório de um caso encerrado.</li>
+  <li>Fazer download em PDF das evidências de um caso encerrado.</li>
+  <li>Visualizar informações detalhadas de uma evidência.</li>
+  <li>Fazer download individual de evidências.</li>
+  <li>Adicionar novas evidências a um caso, realizando upload de arquivos.</li>
+  </ul>
+<br>
 
-📦 projeto <br>
+ projeto <br>
 ├── 📁 assets <br>
 │   ├── adaptive-icon.png <br>
 │   ├── favicon.png <br>
